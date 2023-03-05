@@ -51,7 +51,7 @@ function loop(){
             `
             <div class="image-box">
                     <img src="./img/${appeared[index]}.jpg" width=300px alt="">
-                    <input placeholder="Enter caption here" type="text">
+                    <input placeholder="Enter caption here" name=${index} type="text">
             </div>
             `
             index++;
