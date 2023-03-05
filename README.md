@@ -5,4 +5,4 @@
 ### Access the live-site by clicking [here](#)
 
 ### Site Preview
-[site-preview]()
+[site-preview](./img/preview.png)
