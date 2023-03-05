@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container header {
+  margin: 1.25rem;
+}
+.container article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container article .image-container {
+  display: flex;
+}
+.container article .image-container .image-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.container article .image-container .image-box > * {
+  margin-top: 5px;
+}
+.container #submit {
+  padding: 1.25rem 3rem;
+  background-color: rgb(51, 176, 51);
+  color: white;
+  border-radius: 1.25rem;
+  margin: 1.875rem;
+  cursor: pointer;
+  user-select: none;
+}
+.container #submit:hover {
+  background-color: white;
+  color: rgb(51, 176, 51);
+  border: 1px solid rgb(51, 176, 51);
+  transition: all 0.2s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */
