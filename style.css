@@ -15,23 +15,27 @@
 .container header {
   margin: 1.25rem;
 }
-.container article {
+.container form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container article .image-container {
+.container form .image-container {
   display: flex;
 }
-.container article .image-container .image-box {
+.container form .image-container .image-box {
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
-.container article .image-container .image-box > * {
+.container form .image-container .image-box > * {
   margin-top: 5px;
 }
-.container #submit {
+.container form .form-entry {
+  font-size: 1.1rem;
+  padding: 0.3125rem 0.625rem;
+}
+.container form #submit {
   padding: 1.25rem 3rem;
   background-color: rgb(51, 176, 51);
   color: white;
@@ -39,12 +43,16 @@
   margin: 1.875rem;
   cursor: pointer;
   user-select: none;
+  font-size: 1.5rem;
 }
-.container #submit:hover {
+.container form #submit:hover {
   background-color: white;
   color: rgb(51, 176, 51);
   border: 1px solid rgb(51, 176, 51);
   transition: all 0.2s ease-in-out;
+}
+.container form .image-ID {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
