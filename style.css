@@ -22,13 +22,17 @@
 }
 .container form .image-container {
   display: flex;
+  flex-direction: column;
 }
-.container form .image-container .image-box {
+.container form .image-container .image-row {
+  display: flex;
+}
+.container form .image-container .image-row .image-box {
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
-.container form .image-container .image-box > * {
+.container form .image-container .image-row .image-box > * {
   margin-top: 5px;
 }
 .container form .form-entry {
@@ -42,7 +46,9 @@
   border-radius: 1.25rem;
   margin: 1.875rem;
   cursor: pointer;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   font-size: 1.5rem;
 }
 .container form #submit:hover {
@@ -53,6 +59,4 @@
 }
 .container form .image-ID {
   display: none;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

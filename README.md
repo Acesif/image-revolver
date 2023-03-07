@@ -5,4 +5,4 @@
 ### Access the live-site by clicking [here](https://acesif.github.io/Image-Revolver/)
 
 ### Site Preview
-[site-preview](./img/preview.png)
+![site-preview](./img/preview.png)

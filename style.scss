@@ -19,12 +19,16 @@
         align-items: center;
         .image-container{
             display: flex;
-            .image-box{
+            flex-direction: column;
+            .image-row{
                 display: flex;
-                flex-direction: column;
-                margin: 10px;
-                >*{
-                    margin-top: 5px;
+                .image-box{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px;
+                    >*{
+                        margin-top: 5px;
+                    }
                 }
             }
         }

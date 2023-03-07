@@ -26,16 +26,62 @@ const reset = () =>{
     randArr();
     loop();
 }
-let index = 0;
+// let index = 0;
 function loop(){
     let imageContainers = `
     <div class="image-container">
-    <div class="image-box">
-        <img src="./img/${appeared[index]}.jpg" alt="">
-        <input class="form-entry" placeholder="Enter caption here" name="Caption" type="text">
-        <input class="image-ID" value=${appeared[index]} name="Image_ID" type="text">
+        <div class="image-row">
+            <div class="image-box">
+                <img src="./img/${appeared[0]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_1" type="text">
+                <input class="image-ID" value=${appeared[0]} name="Image_ID_1" type="text">
+            </div>
+            <div class="image-box">
+                <img src="./img/${appeared[1]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_2" type="text">
+                <input class="image-ID" value=${appeared[1]} name="Image_ID_2" type="text">
+            </div>
+            <div class="image-box">
+                <img src="./img/${appeared[2]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_3" type="text">
+                <input class="image-ID" value=${appeared[2]} name="Image_ID_3" type="text">
+            </div>
+        </div>
+        <div class="image-row">
+            <div class="image-box">
+                <img src="./img/${appeared[3]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_4" type="text">
+                <input class="image-ID" value=${appeared[3]} name="Image_ID_4" type="text">
+            </div>
+            <div class="image-box">
+                <img src="./img/${appeared[4]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_5" type="text">
+                <input class="image-ID" value=${appeared[4]} name="Image_ID_5" type="text">
+            </div>
+            <div class="image-box">
+                <img src="./img/${appeared[5]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_6" type="text">
+                <input class="image-ID" value=${appeared[5]} name="Image_ID_6" type="text">
+            </div>
+        </div>
+        <div class="image-row">
+            <div class="image-box">
+                <img src="./img/${appeared[6]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_7" type="text">
+                <input class="image-ID" value=${appeared[6]} name="Image_ID_7" type="text">
+            </div>
+            <div class="image-box">
+                <img src="./img/${appeared[7]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_8" type="text">
+                <input class="image-ID" value=${appeared[7]} name="Image_ID_8" type="text">
+            </div>
+            <div class="image-box">
+                <img src="./img/${appeared[8]}.jpg" width="300px" alt="">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_9" type="text">
+                <input class="image-ID" value=${appeared[8]} name="Image_ID_9" type="text">
+            </div>
+        </div>
         <input id="submit" type="submit" value="Submit" name="submit">
-    </div>
     <div class="image-container">
     `
 
