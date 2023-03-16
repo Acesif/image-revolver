@@ -33,51 +33,51 @@ function loop(){
         <div class="image-row">
             <div class="image-box">
                 <img src="./img/${appeared[0]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_1" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_1" type="text" required>
                 <input class="image-ID" value=${appeared[0]} name="Image_ID_1" type="text">
             </div>
             <div class="image-box">
                 <img src="./img/${appeared[1]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_2" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_2" type="text" required>
                 <input class="image-ID" value=${appeared[1]} name="Image_ID_2" type="text">
             </div>
             <div class="image-box">
                 <img src="./img/${appeared[2]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_3" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_3" type="text" required>
                 <input class="image-ID" value=${appeared[2]} name="Image_ID_3" type="text">
             </div>
         </div>
         <div class="image-row">
             <div class="image-box">
                 <img src="./img/${appeared[3]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_4" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_4" type="text" required>
                 <input class="image-ID" value=${appeared[3]} name="Image_ID_4" type="text">
             </div>
             <div class="image-box">
                 <img src="./img/${appeared[4]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_5" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_5" type="text" required>
                 <input class="image-ID" value=${appeared[4]} name="Image_ID_5" type="text">
             </div>
             <div class="image-box">
                 <img src="./img/${appeared[5]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_6" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_6" type="text" required>
                 <input class="image-ID" value=${appeared[5]} name="Image_ID_6" type="text">
             </div>
         </div>
         <div class="image-row">
             <div class="image-box">
                 <img src="./img/${appeared[6]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_7" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_7" type="text" required>
                 <input class="image-ID" value=${appeared[6]} name="Image_ID_7" type="text">
             </div>
             <div class="image-box">
                 <img src="./img/${appeared[7]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_8" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_8" type="text" required>
                 <input class="image-ID" value=${appeared[7]} name="Image_ID_8" type="text">
             </div>
             <div class="image-box">
                 <img src="./img/${appeared[8]}.jpg" width="300px" alt="">
-                <input class="form-entry" placeholder="Enter caption here" name="Caption_9" type="text">
+                <input class="form-entry" placeholder="Enter caption here" name="Caption_9" type="text" required>
                 <input class="image-ID" value=${appeared[8]} name="Image_ID_9" type="text">
             </div>
         </div>
@@ -91,7 +91,7 @@ function loop(){
     //         `
     //         <div class="image-box">
     //                 <img src="./img/${appeared[index]}.jpg" width=300px alt="">
-    //                 <input class="form-entry" placeholder="Enter caption here" name="Caption" type="text">
+    //                 <input class="form-entry" placeholder="Enter caption here" name="Caption" type="text" required>
     //                 <input id="submit" type="submit" value="Submit" name="submit">
     //         </div>
     //         `
@@ -108,6 +108,7 @@ function loop(){
 randArr();
 loop();
 
+//google sheet link
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzSeo_FoaNNI6V4NZIv_q2bJrapVidAWppPnrEzxwrkVtn785TU_rzrrOmakqn8C3F_/exec'
 const form = document.forms['google-sheet'];
 

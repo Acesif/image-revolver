@@ -57,3 +57,13 @@
         }
     }
 }
+@media (max-width: 750px){
+    .container{
+        form{
+            .image-row{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
