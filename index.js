@@ -2,7 +2,7 @@ let article = document.querySelector("form");
 let placeholder = "";
 
 function randGen(){
-    return Math.floor(Math.random()*19)
+    return Math.floor(Math.random()*948)
 }
 let appeared = []
 function randArr(){
@@ -19,6 +19,7 @@ function randArr(){
         }
     }
 }
+console.log(appeared);
 const reset = () =>{
     appeared = [];
     index = 0;
