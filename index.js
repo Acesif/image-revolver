@@ -2,11 +2,11 @@ let article = document.querySelector("form");
 let placeholder = "";
 
 function randGen(){
-    return Math.floor(Math.random()*948)
+    return Math.floor(Math.random()*997)
 }
 let appeared = []
 function randArr(){
-    for(let i=1;i<948;i++){
+    for(let i=1;i<998;i++){
         if(appeared.length === 9){
             break;
         }
